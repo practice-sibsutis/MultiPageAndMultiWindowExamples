@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMultiPageExample", "SimpleMultiPageExample\SimpleMultiPageExample.csproj", "{B7580600-77EC-4210-BECF-B2116DD8A9B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoPagesInOneWindowExample", "TwoPagesInOneWindowExample\TwoPagesInOneWindowExample.csproj", "{1A1C5528-8D5B-4CF8-BB30-A501A853158B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TODOListApplicationExample", "TODOListApplicationExample\TODOListApplicationExample.csproj", "{B81B9021-30FD-452D-8DCB-FA206E6D58C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMultiWindowExample", "SimpleMultiWindowExample\SimpleMultiWindowExample.csproj", "{0825508A-AAC4-4783-91B7-78E67F6088F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DialogWindowExample", "DialogWindowExample\DialogWindowExample.csproj", "{6EAD403F-E5AB-45DF-A97A-222F55626190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSaveFileDialogFolderDialogExample", "OpenSaveFileDialogFolderDialogExample\OpenSaveFileDialogFolderDialogExample.csproj", "{BED569F8-066E-436E-8D15-EDAA1AD81CBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7580600-77EC-4210-BECF-B2116DD8A9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7580600-77EC-4210-BECF-B2116DD8A9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7580600-77EC-4210-BECF-B2116DD8A9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7580600-77EC-4210-BECF-B2116DD8A9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1C5528-8D5B-4CF8-BB30-A501A853158B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1C5528-8D5B-4CF8-BB30-A501A853158B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1C5528-8D5B-4CF8-BB30-A501A853158B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1C5528-8D5B-4CF8-BB30-A501A853158B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81B9021-30FD-452D-8DCB-FA206E6D58C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81B9021-30FD-452D-8DCB-FA206E6D58C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81B9021-30FD-452D-8DCB-FA206E6D58C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81B9021-30FD-452D-8DCB-FA206E6D58C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0825508A-AAC4-4783-91B7-78E67F6088F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0825508A-AAC4-4783-91B7-78E67F6088F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0825508A-AAC4-4783-91B7-78E67F6088F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0825508A-AAC4-4783-91B7-78E67F6088F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EAD403F-E5AB-45DF-A97A-222F55626190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAD403F-E5AB-45DF-A97A-222F55626190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAD403F-E5AB-45DF-A97A-222F55626190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAD403F-E5AB-45DF-A97A-222F55626190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED569F8-066E-436E-8D15-EDAA1AD81CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED569F8-066E-436E-8D15-EDAA1AD81CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED569F8-066E-436E-8D15-EDAA1AD81CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED569F8-066E-436E-8D15-EDAA1AD81CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC039E16-EA23-408C-A89D-4E5FB2D18B56}
+	EndGlobalSection
+EndGlobal

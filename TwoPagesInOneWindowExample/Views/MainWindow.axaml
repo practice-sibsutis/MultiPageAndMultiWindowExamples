@@ -1,0 +1,25 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:TwoPagesInOneWindowExample.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:views="clr-namespace:TwoPagesInOneWindowExample.Views;assembly=TwoPagesInOneWindowExample"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="TwoPagesInOneWindowExample.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="TwoPagesInOneWindowExample">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+	<Grid ShowGridLines="True" ColumnDefinitions="0.5*, 0.5*">
+		<ContentControl HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="0">
+			<views:WelcomeView/>
+		</ContentControl>
+		<ContentControl HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1">
+			<views:AuthorizationView/>
+		</ContentControl>
+	</Grid>
+
+</Window>

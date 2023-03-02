@@ -1,0 +1,19 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="TODOListApplicationExample.Views.Pages.AddItemView">
+	<Grid RowDefinitions="50, *, 50, 50">
+		<TextBox Grid.Row="0" Name="textBoxHeader" Watermark="Header" Text="{Binding Header}"/>
+		<TextBox Grid.Row="1" Name="textBoxBody" Watermark="Enter your TODO" Text="{Binding Body}"/>
+		<Button Grid.Row="2" Name="buttonOk" Content="OK"
+				HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+				Command="{Binding OkCommand}"/>
+		<Button Grid.Row="3" Name="buttonCancel" Content="Cancel"
+				HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+				HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+			Command="{Binding CancelCommand}"/>
+	</Grid>
+</UserControl>

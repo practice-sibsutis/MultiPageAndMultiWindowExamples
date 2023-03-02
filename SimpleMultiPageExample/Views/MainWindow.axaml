@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:SimpleMultiPageExample.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="700" d:DesignHeight="450" Width="700" Height="450"
+        x:Class="SimpleMultiPageExample.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="SimpleMultiPageExample">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+
+	<Grid ShowGridLines="True" ColumnDefinitions="0.3*, 4, *">
+		<ListBox SelectionMode="Single" SelectedItem="{Binding Content}" Items="{Binding VmbaseCollection}">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<TextBlock Text="{Binding Header}"/>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+		<GridSplitter Grid.Column="1" ResizeDirection="Columns" Background="Black"/>
+		<ContentControl VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+						Grid.Column="2" Content="{Binding Content}"/>
+	</Grid>
+
+</Window>
